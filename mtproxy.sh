@@ -463,7 +463,7 @@ info_mtp() {
         echo -e "服务器端口：\033[31m$port\033[0m"
         echo -e "MTProxy Secret:  \033[31m$client_secret\033[0m"
         echo -e "TG一键链接: https://t.me/proxy?server=${public_ip}&port=${port}&secret=${client_secret}"
-        echo -e "TG一键链接: tg://proxy?server=${public_ip}&port=${port}&secret=${client_secret}"
+     #   echo -e "TG一键链接: tg://proxy?server=${public_ip}&port=${port}&secret=${client_secret}"
     else
         echo -e "TMProxy+TLS代理: \033[33m已停止\033[0m"
     fi
