@@ -606,7 +606,7 @@ elif [[ "debug" == $param ]]; then
 elif [[ "restart" == $param ]]; then
     stop_mtp
     run_mtp
-    debug_mtp
+#    debug_mtp
 elif [[ "reinstall" == $param ]]; then
     reinstall_mtp
 elif [[ "build" == $param ]]; then
